@@ -6,6 +6,10 @@
     <title>Low-Fi Design</title>
     <link rel="stylesheet" href="css/reset.css" />
     <!-- Hubungkan style.css di sini -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+</style>
+     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!--
@@ -14,21 +18,50 @@
         - Menu navigasi (class="nav-links") → kanan, berisi:
           Home, About, Products, Contact
     -->
-
+    <nav class="navbar">
+      <h1 class="logo">TITLE
+      </h1>
+      <div class="nav-links">
+        <h1>Home</h1>
+        <h1>About</h1>
+        <h1>Products</h1>
+        <h1>Contact</h1>
+      </div>
+    </nav>
     <!--
         Quest 2: Buat hero section (class="hero") sesuai design:
         - Judul h1: "TITLE" (class="hero-title")
         - Paragraf: ">> Description" (class="hero-description")
         - Background gradient dari putih ke abu-abu
     -->
+    <section class="hero">
+      <h1 class="hero-title">
+        TITLE
+      </h1>
+      <p class="hero-description">
+        >> Description
+      </p>
+    </section>
 
     <!--
         Quest 3: Buat section "Tentang Kami" (class="tentang"):
         - Judul h2: "TENTANG KAMI?"
         - 2 kolom paragraf (masing-masing class="card")
         - Isi bebas / boleh pakai lorem ipsum
-    -->
-
+    --> 
+    <section class="tentang">
+      <h2>>> TENTANG KAMI?</h2>
+      <div class="card">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+        </p>
+          
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+        </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
     <!-- Hubungkan script.js di sini -->
   </body>
 </html>
