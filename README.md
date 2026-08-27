@@ -4,10 +4,17 @@ Slicing design dari Figma ke HTML, CSS, dan JavaScript.
 
 ## Identitas
 
+<<<<<<< HEAD
 |          |           |
 | -------- | --------- |
 | **Nama** | Nama Kamu |
 | **NRP**  | 00000000  |
+=======
+|          |                               |
+| -------- | ----------------------------- |
+| **Nama** | Deborah Amalia Sheraviningrum |
+| **NRP**  | 5025251072                    |
+>>>>>>> 6a10bc7941123afb9dd2393755c31a270d546fa0
 
 ## Link Figma
 
